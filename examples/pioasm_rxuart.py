@@ -56,4 +56,4 @@ class RXUART:
         return b[:n]
 
     def readinto(self, buf):  # pylint: disable=unused-argument
-        return self.pio.readinto(n)  # pylint: disable=undefined-variable
+        return self.pio.readinto(buf)  # pylint: disable=undefined-variable
